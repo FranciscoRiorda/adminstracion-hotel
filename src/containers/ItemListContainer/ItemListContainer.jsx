@@ -36,6 +36,8 @@ const ItemListContainer = () => {
           cuartosFirebase.push({...doc.data(), id: doc.id});
         });
 
+        cuartosFirebase.sort((a,b) => a.numCuarto - b.numCuarto)
+
         setProducts(cuartosFirebase);
 
       } catch (error) {
