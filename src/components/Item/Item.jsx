@@ -2,6 +2,15 @@ import React from "react";
 import { Badge, Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {faBed} from "@fortawesome/free-solid-svg-icons"
+import {faDollar} from "@fortawesome/free-solid-svg-icons"
+import {faTvAlt} from "@fortawesome/free-solid-svg-icons"
+import {faMugSaucer} from "@fortawesome/free-solid-svg-icons"
+import {faCarAlt} from "@fortawesome/free-solid-svg-icons"
+import {faBellConcierge} from "@fortawesome/free-solid-svg-icons"
+import {faHotTub} from "@fortawesome/free-solid-svg-icons"
+
 import "./stylesItem.css";
 
 const Item = ({ event }) => {
@@ -32,13 +41,14 @@ const navigateDetail = () => {
 
             <div className="pSec">
               <p>{cuarto}</p>
-              <p>Cant camas: {event.camas}</p>
-              <p>$$: {event.precio}</p>
-              <p>Tv</p>
-              <p>Desayuno</p>
-              <p>Cochera</p>
-              <p>Serv cuarto</p>
-              <p>Hidro</p>
+              
+              <p><FontAwesomeIcon icon={faBed} /> {event.camas}</p>
+              <p><FontAwesomeIcon icon={faDollar} /> {event.precio}</p>
+              <p><FontAwesomeIcon icon={faTvAlt} /></p>
+              <p><FontAwesomeIcon icon={faMugSaucer} /></p>
+              <p><FontAwesomeIcon icon={faCarAlt} /></p>
+              <p><FontAwesomeIcon icon={faBellConcierge} /></p>
+              <p><FontAwesomeIcon icon={faHotTub} /></p>
             </div>
           </div>
 

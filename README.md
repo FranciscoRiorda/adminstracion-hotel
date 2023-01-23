@@ -9,5 +9,6 @@ Basado en una aplicación administrativa de un hotel para realizar reservas de c
 ### dependencias
 
 Se ha implementado React-bootstrap para la realización de formularios y react router para la navegación entre componentes.
+Utilización de fontawesome. 
 
 
