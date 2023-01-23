@@ -1,0 +1,43 @@
+.ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  margin: 0px;
+  border: 1px solid rgba(128, 128, 128, 0.149);
+
+}
+
+.link {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+li {
+  display: block;
+  text-align: center;
+  padding: 5px 20px;
+}
+
+.link:hover {
+  color: rgba(0, 0, 0, 0.274);
+  cursor: pointer;
+}
+
+
+.headerBar {
+  background-color: rgb(48, 48, 48);
+  width: 100%;
+  height: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: small;
+  margin: 0;
+}
+
+.menuNavBar {
+  display: flex;
+}

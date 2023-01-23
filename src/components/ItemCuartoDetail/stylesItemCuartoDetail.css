@@ -1,0 +1,21 @@
+.titulo{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+.formularioCuarto{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.columnaRow{
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.divRow{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+}

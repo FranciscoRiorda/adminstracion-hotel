@@ -1,0 +1,49 @@
+.detalle{
+    display: flex;
+    justify-content: center;
+}
+.cardCuarto{
+    margin: 10px;
+    border-radius: 5px;
+    width: 98%;
+    height: 50px;
+    box-shadow: 3px 3px 3px;
+    background-color:rgba(4, 4, 4, 0.275);
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    
+}
+.pTabla{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.pFirst{
+    display: flex;
+    align-content: center;
+    padding: 12px;
+    width: 13%;
+}
+.estadoCuarto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+}
+.pSec{
+    display: flex;
+    justify-content: space-evenly;
+    width: 77%;
+}
+.pSec > p {
+    padding: 12px;
+    min-width: 74px;
+}
+
+.botonTabla{
+    display: flex;
+    justify-content: space-evenly;
+    width: 15%;
+    margin: 5px;
+}

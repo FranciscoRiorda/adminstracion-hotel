@@ -1,0 +1,24 @@
+.bodyLogin{
+    background: url('../../public/assets/img/fondoLogin.jpg') fixed;
+    width: 100%;
+    min-height: 550px;
+    margin: 0;
+    
+}
+.contenedorPrincipal{
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+}
+.contenedor{
+    border: 1px solid rgb(154, 154, 154);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+    width: 50%;
+    
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+
+    background-color: aliceblue;
+}

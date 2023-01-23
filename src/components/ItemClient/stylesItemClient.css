@@ -1,0 +1,35 @@
+.cardClient{
+    margin: 10px;
+    border-radius: 5px;
+    width: 80%;
+    min-height: 50px;
+    box-shadow: 3px 3px 3px;
+    background-color:rgba(4, 4, 4, 0.275);
+    
+}
+.detalle{
+    display: flex;
+    justify-content: center;
+}
+.botonDetalle{
+    margin: 15px;
+}
+.pTablaClient{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    width: 100%;
+}
+.pFirstClient{
+    display: flex;
+    padding: 12px;
+    width: 15%;
+}
+.pSecClient{
+    display: flex;
+    justify-content: flex-end;
+}
+.pSecClient > p {
+    padding: 12px;
+    margin-right: 30px;
+}

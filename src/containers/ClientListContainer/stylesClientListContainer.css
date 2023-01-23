@@ -1,0 +1,23 @@
+.botonCliente{
+    display: flex;
+    justify-content: flex-end;
+    margin: 50px;
+}
+.contenedorTabla{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.tabla{
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    box-shadow: 3px 3px 3px;
+    width: 95%;
+    min-height: 300px;
+    max-height: 400px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    overflow-y: scroll;
+}
